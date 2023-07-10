@@ -2,7 +2,7 @@ class CalcController {
 
     constructor(){
 
-        this._audio = new Audio('a');
+        this._audio = new Audio('a.mp3.mp3');
         this._audioOnOff = false;
         this._lastOperator = '';
         this._lastNumber = '';
@@ -82,7 +82,7 @@ class CalcController {
 
         if (this._audioOnOff) {
 
-            this._audio.currentTime = 3;
+            this._audio.currentTime = 0;
             this._audio.play();
 
         }
